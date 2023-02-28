@@ -42,3 +42,32 @@ select rtrim('    hello world')
 select substring('SQL server',1,4) + substring('SQL server',6,5)
 
 --11
+select cast(1234.56 as int)
+
+--12
+select cast(10.58 as int)
+
+--13
+select space(10) + 'viral'
+
+--14
+select 'viral' + 'chauhan'
+select concat('viral' , 'chauhan')
+
+--15
+select reverse('darshan')
+
+--16
+select REPLICATE('viral',3)
+
+--17
+select stuff('viralchauhan',1,3,'html')
+
+--18
+select coalesce(null,'vc',null)
+
+--19
+select ISnumeric('vc')
+
+--20
+select CHARINDEX('t' , 'customer')
