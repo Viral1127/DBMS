@@ -89,8 +89,7 @@ where 2=1
 --4
 insert into IPL(name , city , age) 
 select name ,city,age from Cricket
-where name like '_A%'
-and name like '_______%'
+where name like '_A_____%'
 
 --5
 delete from IPL
